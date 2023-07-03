@@ -1,0 +1,126 @@
+@media (max-width:1030px) {
+
+    /* HOME CSS */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 65% center;
+        min-height: 550px;
+        text-align: center;
+    }
+
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%,-50%);
+    }  
+    
+    .offers .offer-box .offer-info .heading bigger{
+        font-size: 3rem;
+    }
+
+    .special .countdown-container .countdown-counter li{
+        padding: 1.5rem 1rem;
+    }
+        
+
+
+
+    
+}
+
+@media (max-width:991px) {
+
+    /* HOME CSS */
+
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%,-50%);
+        text-align: center;
+    }
+    .special .countdown-container{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }    
+
+    .testimonial .carousel-control-prev{
+        left: -1.75rem;
+    }
+    
+    .testimonial .carousel-control-next{
+        right: -1.75rem;
+    }
+
+    
+}
+
+@media (max-width:767px){
+
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 60% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%,-50%);
+    }
+
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+
+    .home .home-banner .home-banner-text .btn-danger{
+        padding:  0.5rem 1.5 rem;
+    }
+
+    .home .slider-icon{
+        font-size: 2rem;
+    }
+
+    /* Product */
+    .products .up_to_content h2{
+        font-size: 0.75rem;
+    }
+
+    /* Special */
+    .special{
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container{
+        text-align: start;
+    }
+
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        width: 20%;
+        width: 25%;
+        text-align: start;
+    }
+
+    .testimonial .testimonial-wrapper{
+        padding: 1rem;
+    }
+
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next{
+        display: none;
+    }
+    
+
+
+}
+
+@media(max-width:330px){
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+
+    .products .up_to_content h2{
+        font-size: 0.625rem;
+    }
+}
